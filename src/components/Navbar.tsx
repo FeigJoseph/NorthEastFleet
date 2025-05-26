@@ -137,20 +137,20 @@ const Navbar = () => {
             </Link>
             <div className="border-t border-slate-700 pt-2 mt-2">
               <a
-                href="tel:+16095551234"
+                href="tel:+16095175508"
                 className="flex items-center text-white hover:text-orange-400 px-3 py-2"
                 onClick={() => setIsOpen(false)}
               >
                 <Phone className="h-5 w-5 mr-2" />
-                <span>(609) 555-1234</span>
+                <span>(609) 517-5508</span>
               </a>
               <a
-                href="mailto:info@northeastfleet.com"
+                href="mailto:Nefs@comcast.net"
                 className="flex items-center text-white hover:text-orange-400 px-3 py-2"
                 onClick={() => setIsOpen(false)}
               >
                 <Mail className="h-5 w-5 mr-2" />
-                <span>info@northeastfleet.com</span>
+                <span>Nefs@comcast.net</span>
               </a>
             </div>
           </div>
