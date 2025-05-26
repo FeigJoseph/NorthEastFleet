@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import workshop1 from "../assets/inside_1.jpg";
-import workshop2 from "../assets/inside_2.jpg";
+import workshop1 from "../assets/inside_1.JPG";
+import workshop2 from "../assets/inside_2.JPG";
 import main_pic from "../assets/main_pic.png";
-import truck1 from "../assets/truck_1.jpg";
-import truck2 from "../assets/outside_1.jpg";
+import truck1 from "../assets/truck_1.JPG";
+import truck2 from "../assets/outside_1.JPG";
 
 interface GalleryImage {
   src: string;
