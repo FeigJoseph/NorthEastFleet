@@ -70,7 +70,7 @@ const About = () => {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600 rounded-lg hidden md:block"></div>
+            {/* <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600 rounded-lg hidden md:block"></div> */}
           </div>
         </div>
 
