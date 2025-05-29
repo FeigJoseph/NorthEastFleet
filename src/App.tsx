@@ -1,23 +1,25 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import Testimonials from './components/Testimonials';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import About from "./components/About";
+import Testimonials from "./components/Testimonials";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import ParkingInfo from "./components/ParkingInfo";
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <ParkingInfo />
       <Services />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Gallery />
       <CTA />
       <Contact />
