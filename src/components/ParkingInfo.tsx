@@ -29,10 +29,6 @@ const ParkingInfo = () => {
                   <span className="h-2 w-2 bg-orange-500 rounded-full"></span>
                   Easy access for large vehicles
                 </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-2 w-2 bg-orange-500 rounded-full"></span>
-                  Well-lit parking area
-                </li>
               </ul>
             </div>
             <div className="relative">

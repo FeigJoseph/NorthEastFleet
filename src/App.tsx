@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
-import Testimonials from "./components/Testimonials";
+//import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import CTA from "./components/CTA";
@@ -16,9 +16,9 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <ParkingInfo />
-      <Services />
       <About />
+      <Services />
+      <ParkingInfo />
       {/* <Testimonials /> */}
       <Gallery />
       <CTA />
