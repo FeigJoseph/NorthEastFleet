@@ -25,8 +25,9 @@ const Hero = () => {
             Your Trusted Partner in Fleet Maintenance
           </h1>
           <p className="text-xl text-gray-300 mb-8">
-            Serving the tri-state area for over 25 years with quality
-            workmanship and dedicated service.
+            Serving a four-state area (New York, New Jersey, Pennsylvania,
+            Connecticut) for over 40 years with quality workmanship and
+            dedicated service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

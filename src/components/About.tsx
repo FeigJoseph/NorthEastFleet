@@ -29,10 +29,11 @@ const About = () => {
             </h2>
             <p className="text-slate-600 mb-4">
               Based in Wrightstown, NJ, our family-owned fleet service company
-              has proudly served the tri-state area for over 25 years. We
-              specialize in mobile technician services, welding, fabrication,
-              maintenance, and repairs, with a strong focus on quality
-              workmanship and dedicated service.
+              has proudly served over 4 states (New York, New Jersey,
+              Pennsylvania, Connecticut) for over 40 years. We specialize in
+              mobile technician services, welding, fabrication, maintenance, and
+              repairs, with a strong focus on quality workmanship and dedicated
+              service.
             </p>
             <p className="text-slate-600 mb-4">
               Our facility features a large body shop equipped to handle trailer
@@ -54,10 +55,10 @@ const About = () => {
                 Licensed & Insured
               </span>
               <span className="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
-                25+ Years Experience
+                40+ Years Experience
               </span>
               <span className="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
-                Tri-State Area Service
+                Four-State Area Service
               </span>
             </div>
           </div>
@@ -77,7 +78,7 @@ const About = () => {
         {/* Stats Section */}
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-6">
           <Statistic
-            value="25+"
+            value="40+"
             label="Years in Business"
             icon={<Calendar className="h-10 w-10" />}
           />
@@ -87,7 +88,7 @@ const About = () => {
             icon={<Users className="h-10 w-10" />}
           />
           <Statistic
-            value="3"
+            value="4"
             label="States Served"
             icon={<MapPin className="h-10 w-10" />}
           />

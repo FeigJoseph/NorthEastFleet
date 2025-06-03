@@ -22,7 +22,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">North East Fleet Service</h3>
             <p className="mb-4 text-slate-300">
               Your trusted partner in fleet maintenance and repair services for
-              over 25 years.
+              over 40 years.
             </p>
             <div className="flex space-x-4">
               <a
