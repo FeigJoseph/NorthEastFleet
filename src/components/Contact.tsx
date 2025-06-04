@@ -70,10 +70,10 @@ const Contact = () => {
                   <h4 className="font-semibold text-slate-800 mb-1">Email</h4>
                   <p className="text-slate-600">
                     <a
-                      href="mailto:Nefs@comcast.net"
+                      href="mailto:nefleet@comcast.net"
                       className="hover:text-blue-600 transition-colors"
                     >
-                      Nefs@comcast.net
+                      nefleet@comcast.net
                     </a>
                   </p>
                 </div>
