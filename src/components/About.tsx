@@ -30,8 +30,8 @@ const About = () => {
             <p className="text-slate-600 mb-4">
               Based in Wrightstown, NJ, our family-owned fleet service company
               has proudly served over 4 states (New York, New Jersey,
-              Pennsylvania, Connecticut) for over 40 years. We specialize in
-              mobile technician services, welding, fabrication, maintenance, and
+              Pennsylvania, Delaware) for over 40 years. We specialize in mobile
+              technician services, welding, fabrication, maintenance, and
               repairs, with a strong focus on quality workmanship and dedicated
               service.
             </p>
