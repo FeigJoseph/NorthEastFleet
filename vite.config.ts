@@ -9,4 +9,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   assetsInclude: ['**/*.JPG'],
+  build: {
+    outDir: 'dist', // Matches your workflow's publish_dir
+  },
 });
