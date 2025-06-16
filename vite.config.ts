@@ -10,6 +10,12 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.JPG'],
   build: {
-    outDir: 'dist', // Matches your workflow's publish_dir
+    outDir: 'dist', // Where the build output goes
+    emptyOutDir: true, // Clears dist folder before building
+    rollupOptions: {
+      input: {
+        main: './index.html', // Ensure this points to your entry HTML
+      },
+    },
   },
 });
