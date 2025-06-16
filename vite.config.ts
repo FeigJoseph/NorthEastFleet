@@ -12,10 +12,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Where the build output goes
     emptyOutDir: true, // Clears dist folder before building
-    rollupOptions: {
-      input: {
-        main: './index.html', // Ensure this points to your entry HTML
-      },
-    },
   },
 });
